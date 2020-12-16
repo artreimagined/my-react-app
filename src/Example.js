@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Example.css';
 
 const Example = () => {
 
@@ -9,11 +10,14 @@ const Example = () => {
     //Similar to componentDidMount and componenrDidUpdate:
     useEffect(() => {
         document.title = `You clicked ${count} times`;
+        // alert('this is an alert');
+        console.log("This is a log");
+        
     })
 
     return (
         <div>
-            <p>You clicked  {count} times</p>
+            <p>You clicked  <p id="count">{count}</p> times</p>
             <button onClick={() => setCount(count + 1)}>
                 Click me
             </button>

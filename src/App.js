@@ -10,7 +10,7 @@ function App() {
   // const x = 4;
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <h1 id="title">Hello World!</h1>
       <MyComponent />
       <Name customName="Teri"/>
       <ThingILike />

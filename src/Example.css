@@ -1,0 +1,13 @@
+button {
+    font-size: 25px;
+    /* border-style: ridge; */
+    background-color: 	#008080;
+    border-radius: 20px;
+    
+}
+
+#count {
+    color: #9D0000;
+    font-size: 20px;
+    font-weight: bold;
+}
